@@ -1,0 +1,281 @@
+/* You can add global styles to this file, and also import other style files */
+/******************* LOGIN E MENU SUPERIOR CSS **************/
+.carrinho {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.navbar {
+  top: 1.5rem;
+  width: 100%;
+
+
+}
+
+.entrada {
+  top: 1rem;
+  position: relative;
+  right: 0rem;
+  text-align: center;
+}
+
+.login {
+  position: fixed;
+  right: 6rem;
+  text-align: center;
+}
+
+.login-text{
+  position: fixed;
+  right: 5.7rem;
+  top: 3.5rem;
+  font-size: 16px;
+
+}
+
+hr {
+  position: relative;
+  top: 3rem;
+  background-color: #00B4CC;
+}
+
+.row {
+  position: relative;
+  top: 7rem;
+
+}
+
+.shopping-cart {
+  position: fixed;
+  right: 18rem;
+  text-align: center;
+}
+.shopping-cart-text {
+  position: fixed;
+  font-size: 16px;
+  right: 17rem;
+}
+
+.signup {
+  position: fixed;
+  right: 11.5rem;
+  text-align: center;
+
+}
+.signup-text {
+  position: fixed;
+  right: 10rem;
+  top: 3.5rem;
+  font-size: 16px;
+}
+
+.babystore {
+  top: 1rem;
+  left: 8rem;
+  position: fixed;
+  color: #00B4CC;
+}
+.container-fluid {
+  background-color: #00B4CC;
+  height: 3rem;
+
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 90px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: relative;
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/******************* MARKETING CSS **************/
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+}
+.img-rounded {
+  transition: all .5s;
+  border: 5px solid transparent;
+
+}
+.img-rounded:hover{
+  border: 5px solid #00B4CC;
+  border-radius: 50%;
+
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.row {
+  margin-bottom: 80px;
+}
+/*******************MENSAGENS H1*****************/
+h1{
+  position: relative;
+  top: 2rem;
+}
+
+/******************* CAROUSEL CSS **************/
+.carrossel {
+  position: relative;
+  top: 0.1rem;
+  width: 100%;
+}
+.btn {
+  background-color: #00B4CC ;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 38rem;
+  width: 100%;
+  /* background-color: rgb(137, 181, 194); */
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 12%;
+  width: 80rem;
+  height: 32rem;
+
+}
+/******************* CAROUSEL MULTIPLOS ITENS CSS **************/
+.col-md-10 {
+  position: relative;
+  bottom: 5rem;
+}
+.carousel {
+  position: relative;
+	margin: 30px;
+	padding: 0 80px;
+}
+.carousel .carousel-item {
+	text-align: center;
+	overflow: hidden;
+}
+.carousel .carousel-item h4 {
+	font-family: 'Varela Round', sans-serif;
+}
+.carousel .carousel-item img {
+	max-width: 100%;
+	display: inline-block;
+}
+.carousel .carousel-item .btn {
+	border-radius: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	background: #00B4CC;
+	padding: 6px 15px;
+	margin-top: 5px;
+}
+.carousel .carousel-item .btn:hover {
+	background:  #00B4CC;
+}
+.carousel .carousel-item .btn i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+	margin: 5px;
+	text-align: left;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+.carousel .thumb-content {
+	padding: 15px;
+	font-size: 13px;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 36px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -19px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: none;
+	font-weight: bold;
+}
+.carousel-control-prev i {
+	margin-left: -9rem;
+}
+.carousel-control-next i {
+	margin-right: -9rem;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: 4px;
+	border: none;
+}
+.carousel-indicators li {
+	background: #ababab;
+}
+.carousel-indicators li.active {
+	background: #555;
+}
